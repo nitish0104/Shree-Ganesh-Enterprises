@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Login page</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="navcolor">
+                <div class="logoparent">
+                    <div>
+                        <p class="navp"> Shree Ganesh </p>
+                        <p class="navp"> Enterprises</p>
+                    </div>
+                    <img src="logo.jpg" alt="" class="navlogo">
+                </div>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About us</li>
+                    </a>
+                    <a href="Archivement.html">
+                        <li>Our Archivement</li>
+                    </a>
+                    <label for="search">
+                        <input type="search" class="sear" name="search" id="search" placeholder="Search here">
+                    </label>
+                    <a href="signin.html" target="_blank">
+                        <li>Sign in</li>
+                    </a>
+                    <a href="https://google.com" target="_blank">
+                        <li>Exit</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <form action="backend.php">
+        <h2>New Register</h2>
+        <div class="login">
+            <label for="name">
+                Name:<input type="name" class="height" placeholder="Enter your name:">
+            </label>
+            
+            <label for="address">
+                Address:<input type="text" class="height"class="height"placeholder="Enter Your Address">
+            </label>
+            
+            <label for="dob">
+                DOB: <input type="date" class="height"name="dob" id="dob">
+            </label>
+            <br>
+            <label for="mail">
+                Mail: <input type="email"class="height" name="email" id="email" placeholder="Enter your mail">
+            </label>
+            <br>
+            <label for="city">
+                City:<input type="text" class="height"name="city" placeholder="Enter your city:">
+            </label>
+            
+            <label for="Gender"class="height">
+                Gender:
+                
+                Male: <input type="radio" name="Gender">
+                Female: <input type="radio" name="Gender">
+            </label>
+            <label for="order">
+                Are you intrested to place order?  
+                yes<input type="checkbox" name="1">
+                no <input type="checkbox" name="1">
+            </label>
+            
+            <label for="quality"class="height">
+                Which qualityof box you want?
+                <select name="quality" id="quality">
+                    <option value="Good">Good</option>
+                    <option value="Good">Best</option>
+                    <option value="Good">Better</option>
+                    <option value="Good">Average</option>
+                </select>
+            </label>
+            <label for="loginid">
+                loginid: <input type="text"class="height" name="loginid" placeholder="Enter your login id">
+            </label>
+            
+            <label for="pass">
+                Password: <input type="password" class="height"name="pass" id="pass" placeholder="Enter your password">
+            </label>
+            <div class="buttonparent">
+                <input class="maxwidth" type="submit" value="submit">
+            <input class="maxwidth" type="reset" value="reset">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

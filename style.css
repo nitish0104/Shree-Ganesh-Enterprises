@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+.nav {
+    background-color: rgb(29, 24, 24);
+}
+
+.navp {
+    color: rgb(255, 255, 255);
+}
+
+
+.navcolor ul a li {
+    display: inline-block;
+    background-color: rgb(211, 174, 174);
+
+    height: max-content;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.navcolor {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.start {
+    margin-top: 10px;
+    color: aquamarine;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 85%;
+}
+
+li {
+    margin: 10px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+    color: white;
+    font-size: medium;
+    justify-content: center;
+    text-align: center;
+}
+
+.sear {
+    width: 317px;
+    margin: 23px;
+    padding: 8px;
+
+}
+
+.cont {
+
+    height: 100vh;
+    background-color: rgb(235, 223, 223);
+    /* background-image: url(logo.jpg);
+    
+    background-size: contain;
+    background-repeat: no-repeat; */
+    /* background-size: 237vh; */
+    background-attachment: fixed;
+
+
+}
+
+.end {
+    background-color: aqua;
+    height: 7vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cop {
+    margin: 20px;
+    padding: 20px;
+    height: 30px;
+}
+
+.navlogo {
+    height: 54px;
+    width: 54px;
+}
+.logoparent{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.maxwidth{
+    width: max-content;
+    padding: 5px 10px;
+    margin: 10px;
+}
+.buttonparent{
+    display: flex;
+    justify-content: center;
+}
